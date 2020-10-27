@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 900px;
+    height: 600px;
+    /* background-color: red; */
+    margin: 60px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.arrow-left, .arrow-right {
+    width: 50px;
+    height: 100%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-box {
+    width: 800px;
+    height: 100%;
+    background-color: black;
+}
