@@ -46,4 +46,30 @@ $(document).ready(function() {
         }
     });
 
+
+    // quando vado a premere nel circle aggiungo le classi fas e active solo nell'elemento corrente e le disattivo a tutte le altre
+    
+    $('#first-circle').click(function() {
+        $('.fa-circle').removeClass('fas')
+        $('img').removeClass('active')
+        $('#first-circle').addClass('fas')
+        $('#first-img').addClass('active')
+
+
+    })
+
+    $('#second-circle').click(function() {
+        $('.fa-circle').removeClass('fas')
+        $('img').removeClass('active')
+        $('#second-circle').addClass('fas')
+        $('#second-img').addClass('active')
+    })
+
+    $('#third-circle').click(function() {
+        $('.fa-circle').removeClass('fas')
+        $('img').removeClass('active')
+        $('#third-circle').addClass('fas')
+        $('#third-img').addClass('active')
+    })
+
 })
