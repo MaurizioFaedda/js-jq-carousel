@@ -40,3 +40,14 @@
 .content-box img.active {
     display: block;
 }
+
+.circle {
+    position: absolute;
+    bottom: 45px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.circle > .fas {
+
+}
