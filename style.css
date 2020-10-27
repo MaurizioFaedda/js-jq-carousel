@@ -32,4 +32,11 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+    display: none;
+}
+
+/* classe da aggiungere e togliere all'esigenza per rendere visibile o nascondere le img */
+
+.content-box img.active {
+    display: block;
 }
